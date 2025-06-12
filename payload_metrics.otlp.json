@@ -1,0 +1,50 @@
+{
+  "resource_metrics": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": { "string_value": "grpcurl" }
+          }
+        ]
+      },
+      "scope_metrics": [
+        {
+          "scope": {
+            "name": "TeddyBearLibrary",
+            "version": "0.0.1-teddy"
+          },
+          "metrics": [
+            {
+              "name": "my.gauge",
+              "description": "A gauge",
+              "unit": "",
+              "gauge": {
+                "data_points": [
+                  {
+                    "time_unix_nano": 1623444666000000000,
+                    "as_int": 123
+                  }
+                ]
+              }
+            },
+            {
+              "name": "my.histogram",
+              "description": "A histogram",
+              "unit": "",
+              "gauge": {
+                "data_points": [
+                  {
+                    "time_unix_nano": 1623444666000000000,
+                    "as_int": 123
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

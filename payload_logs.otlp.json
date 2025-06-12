@@ -1,0 +1,37 @@
+{
+  "resourceLogs": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": { "stringValue": "grpcurl" }
+          }
+        ]
+      },
+      "scopeLogs": [
+        {
+          "scope": {
+            "name": "MyScope",
+            "version": "0.1.0"
+          },
+          "logRecords": [
+            {
+              "body": { "stringValue": "Some body" },
+              "traceId": "S/kvNXezTaajzpKdDg5HNg==",
+              "spanId": "APBnaqupArc=",
+              "severityText": "INFO",
+              "timeUnixNano": "1749619656123456789",
+              "attributes": [
+                {
+                  "key": "custom.attribute",
+                  "value": { "stringValue": "example" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
